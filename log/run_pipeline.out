@@ -1,0 +1,277 @@
+###########################################
+# DOWNLOADING...
+###########################################
+--2019-11-17 12:10:06--  ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz
+           => “res/genome/ecoli.fasta.gz”
+Resolviendo ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)... 130.14.250.11, 2607:f220:41e:250::13
+Conectando con ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)[130.14.250.11]:21... conectado.
+Accediendo como anonymous... ¡Sesión iniciada!
+==> SYST ... hecho.    ==> PWD ... hecho.
+==> TYPE I ... hecho.  ==> CWD (1) /genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2 ... hecho.
+==> SIZE GCF_000005845.2_ASM584v2_genomic.fna.gz ... 1379902
+==> PASV ... hecho.    ==> RETR GCF_000005845.2_ASM584v2_genomic.fna.gz ... hecho.
+Longitud: 1379902 (1,3M) (no autenticado)
+
+     0K .......... .......... .......... .......... ..........  3% 86,3K 15s
+    50K .......... .......... .......... .......... ..........  7%  527K 8s
+   100K .......... .......... .......... .......... .......... 11%  223K 7s
+   150K .......... .......... .......... .......... .......... 14%  280K 6s
+   200K .......... .......... .......... .......... .......... 18%  315K 5s
+   250K .......... .......... .......... .......... .......... 22%  315K 5s
+   300K .......... .......... .......... .......... .......... 25%  130K 5s
+   350K .......... .......... .......... .......... .......... 29%  384K 5s
+   400K .......... .......... .......... .......... .......... 33%  433K 4s
+   450K .......... .......... .......... .......... .......... 37%  419K 4s
+   500K .......... .......... .......... .......... .......... 40%  459K 3s
+   550K .......... .......... .......... .......... .......... 44%  461K 3s
+   600K .......... .......... .......... .......... .......... 48%  523K 3s
+   650K .......... .......... .......... .......... .......... 51%  528K 2s
+   700K .......... .......... .......... .......... .......... 55% 1,06M 2s
+   750K .......... .......... .......... .......... .......... 59%  509K 2s
+   800K .......... .......... .......... .......... .......... 63%  498K 2s
+   850K .......... .......... .......... .......... .......... 66% 4,72M 1s
+   900K .......... .......... .......... .......... .......... 70%  504K 1s
+   950K .......... .......... .......... .......... .......... 74% 1,12M 1s
+  1000K .......... .......... .......... .......... .......... 77%  308K 1s
+  1050K .......... .......... .......... .......... .......... 81% 2,66M 1s
+  1100K .......... .......... .......... .......... .......... 85%  480K 1s
+  1150K .......... .......... .......... .......... .......... 89% 2,27M 0s
+  1200K .......... .......... .......... .......... .......... 92% 6,93M 0s
+  1250K .......... .......... .......... .......... .......... 96%  456K 0s
+  1300K .......... .......... .......... .......... .......   100% 4,10M=3,4s
+
+2019-11-17 12:10:15 (398 KB/s) - “res/genome/ecoli.fasta.gz” guardado [1379902]
+
+###########################################
+# PROCESSING... ERR2868172
+###########################################
+Running cutadapt...
+
+Running FastQC...
+Started analysis of ERR2868172_1.fastq.gz
+Approx 5% complete for ERR2868172_1.fastq.gz
+Approx 10% complete for ERR2868172_1.fastq.gz
+Approx 15% complete for ERR2868172_1.fastq.gz
+Approx 20% complete for ERR2868172_1.fastq.gz
+Approx 25% complete for ERR2868172_1.fastq.gz
+Approx 30% complete for ERR2868172_1.fastq.gz
+Approx 35% complete for ERR2868172_1.fastq.gz
+Approx 40% complete for ERR2868172_1.fastq.gz
+Approx 45% complete for ERR2868172_1.fastq.gz
+Approx 50% complete for ERR2868172_1.fastq.gz
+Approx 55% complete for ERR2868172_1.fastq.gz
+Approx 60% complete for ERR2868172_1.fastq.gz
+Approx 65% complete for ERR2868172_1.fastq.gz
+Approx 70% complete for ERR2868172_1.fastq.gz
+Approx 75% complete for ERR2868172_1.fastq.gz
+Approx 80% complete for ERR2868172_1.fastq.gz
+Approx 85% complete for ERR2868172_1.fastq.gz
+Approx 90% complete for ERR2868172_1.fastq.gz
+Approx 95% complete for ERR2868172_1.fastq.gz
+Approx 100% complete for ERR2868172_1.fastq.gz
+Analysis complete for ERR2868172_1.fastq.gz
+Started analysis of ERR2868172_2.fastq.gz
+Approx 5% complete for ERR2868172_2.fastq.gz
+Approx 10% complete for ERR2868172_2.fastq.gz
+Approx 15% complete for ERR2868172_2.fastq.gz
+Approx 20% complete for ERR2868172_2.fastq.gz
+Approx 25% complete for ERR2868172_2.fastq.gz
+Approx 30% complete for ERR2868172_2.fastq.gz
+Approx 35% complete for ERR2868172_2.fastq.gz
+Approx 40% complete for ERR2868172_2.fastq.gz
+Approx 45% complete for ERR2868172_2.fastq.gz
+Approx 50% complete for ERR2868172_2.fastq.gz
+Approx 55% complete for ERR2868172_2.fastq.gz
+Approx 60% complete for ERR2868172_2.fastq.gz
+Approx 65% complete for ERR2868172_2.fastq.gz
+Approx 70% complete for ERR2868172_2.fastq.gz
+Approx 75% complete for ERR2868172_2.fastq.gz
+Approx 80% complete for ERR2868172_2.fastq.gz
+Approx 85% complete for ERR2868172_2.fastq.gz
+Approx 90% complete for ERR2868172_2.fastq.gz
+Approx 95% complete for ERR2868172_2.fastq.gz
+Approx 100% complete for ERR2868172_2.fastq.gz
+Analysis complete for ERR2868172_2.fastq.gz
+
+Running STAR index...
+Nov 17 12:10:36 ..... started STAR run
+Nov 17 12:10:36 ... starting to generate Genome files
+Nov 17 12:10:36 ... starting to sort Suffix Array. This may take a long time...
+Nov 17 12:10:36 ... sorting Suffix Array chunks and saving them to disk...
+Nov 17 12:10:38 ... loading chunks from disk, packing SA...
+Nov 17 12:10:38 ... finished generating suffix array
+Nov 17 12:10:38 ... generating Suffix Array index
+Nov 17 12:10:38 ... completed Suffix Array index
+Nov 17 12:10:38 ... writing Genome to disk ...
+Nov 17 12:10:38 ... writing Suffix Array to disk ...
+Nov 17 12:10:38 ... writing SAindex to disk
+Nov 17 12:10:38 ..... finished successfully
+
+Running STAR alignment...
+Nov 17 12:10:38 ..... started STAR run
+Nov 17 12:10:38 ..... loading genome
+Nov 17 12:10:38 ..... started mapping
+Nov 17 12:11:34 ..... finished mapping
+Nov 17 12:11:34 ..... finished successfully
+
+###########################################
+# PROCESSING... ERR2868173
+###########################################
+Running cutadapt...
+
+Running FastQC...
+Started analysis of ERR2868173_1.fastq.gz
+Approx 5% complete for ERR2868173_1.fastq.gz
+Approx 10% complete for ERR2868173_1.fastq.gz
+Approx 15% complete for ERR2868173_1.fastq.gz
+Approx 20% complete for ERR2868173_1.fastq.gz
+Approx 25% complete for ERR2868173_1.fastq.gz
+Approx 30% complete for ERR2868173_1.fastq.gz
+Approx 35% complete for ERR2868173_1.fastq.gz
+Approx 40% complete for ERR2868173_1.fastq.gz
+Approx 45% complete for ERR2868173_1.fastq.gz
+Approx 50% complete for ERR2868173_1.fastq.gz
+Approx 55% complete for ERR2868173_1.fastq.gz
+Approx 60% complete for ERR2868173_1.fastq.gz
+Approx 65% complete for ERR2868173_1.fastq.gz
+Approx 70% complete for ERR2868173_1.fastq.gz
+Approx 75% complete for ERR2868173_1.fastq.gz
+Approx 80% complete for ERR2868173_1.fastq.gz
+Approx 85% complete for ERR2868173_1.fastq.gz
+Approx 90% complete for ERR2868173_1.fastq.gz
+Approx 95% complete for ERR2868173_1.fastq.gz
+Approx 100% complete for ERR2868173_1.fastq.gz
+Analysis complete for ERR2868173_1.fastq.gz
+Started analysis of ERR2868173_2.fastq.gz
+Approx 5% complete for ERR2868173_2.fastq.gz
+Approx 10% complete for ERR2868173_2.fastq.gz
+Approx 15% complete for ERR2868173_2.fastq.gz
+Approx 20% complete for ERR2868173_2.fastq.gz
+Approx 25% complete for ERR2868173_2.fastq.gz
+Approx 30% complete for ERR2868173_2.fastq.gz
+Approx 35% complete for ERR2868173_2.fastq.gz
+Approx 40% complete for ERR2868173_2.fastq.gz
+Approx 45% complete for ERR2868173_2.fastq.gz
+Approx 50% complete for ERR2868173_2.fastq.gz
+Approx 55% complete for ERR2868173_2.fastq.gz
+Approx 60% complete for ERR2868173_2.fastq.gz
+Approx 65% complete for ERR2868173_2.fastq.gz
+Approx 70% complete for ERR2868173_2.fastq.gz
+Approx 75% complete for ERR2868173_2.fastq.gz
+Approx 80% complete for ERR2868173_2.fastq.gz
+Approx 85% complete for ERR2868173_2.fastq.gz
+Approx 90% complete for ERR2868173_2.fastq.gz
+Approx 95% complete for ERR2868173_2.fastq.gz
+Approx 100% complete for ERR2868173_2.fastq.gz
+Analysis complete for ERR2868173_2.fastq.gz
+
+Running STAR index...
+Nov 17 12:11:55 ..... started STAR run
+Nov 17 12:11:55 ... starting to generate Genome files
+Nov 17 12:11:55 ... starting to sort Suffix Array. This may take a long time...
+Nov 17 12:11:55 ... sorting Suffix Array chunks and saving them to disk...
+Nov 17 12:11:57 ... loading chunks from disk, packing SA...
+Nov 17 12:11:57 ... finished generating suffix array
+Nov 17 12:11:57 ... generating Suffix Array index
+Nov 17 12:11:57 ... completed Suffix Array index
+Nov 17 12:11:57 ... writing Genome to disk ...
+Nov 17 12:11:57 ... writing Suffix Array to disk ...
+Nov 17 12:11:57 ... writing SAindex to disk
+Nov 17 12:11:57 ..... finished successfully
+
+Running STAR alignment...
+Nov 17 12:11:57 ..... started STAR run
+Nov 17 12:11:57 ..... loading genome
+Nov 17 12:11:57 ..... started mapping
+Nov 17 12:12:53 ..... finished mapping
+Nov 17 12:12:53 ..... finished successfully
+
+###########################################
+# PROCESSING... ERR2868174
+###########################################
+Running cutadapt...
+
+Running FastQC...
+Started analysis of ERR2868174_1.fastq.gz
+Approx 5% complete for ERR2868174_1.fastq.gz
+Approx 10% complete for ERR2868174_1.fastq.gz
+Approx 15% complete for ERR2868174_1.fastq.gz
+Approx 20% complete for ERR2868174_1.fastq.gz
+Approx 25% complete for ERR2868174_1.fastq.gz
+Approx 30% complete for ERR2868174_1.fastq.gz
+Approx 35% complete for ERR2868174_1.fastq.gz
+Approx 40% complete for ERR2868174_1.fastq.gz
+Approx 45% complete for ERR2868174_1.fastq.gz
+Approx 50% complete for ERR2868174_1.fastq.gz
+Approx 55% complete for ERR2868174_1.fastq.gz
+Approx 60% complete for ERR2868174_1.fastq.gz
+Approx 65% complete for ERR2868174_1.fastq.gz
+Approx 70% complete for ERR2868174_1.fastq.gz
+Approx 75% complete for ERR2868174_1.fastq.gz
+Approx 80% complete for ERR2868174_1.fastq.gz
+Approx 85% complete for ERR2868174_1.fastq.gz
+Approx 90% complete for ERR2868174_1.fastq.gz
+Approx 95% complete for ERR2868174_1.fastq.gz
+Approx 100% complete for ERR2868174_1.fastq.gz
+Analysis complete for ERR2868174_1.fastq.gz
+Started analysis of ERR2868174_2.fastq.gz
+Approx 5% complete for ERR2868174_2.fastq.gz
+Approx 10% complete for ERR2868174_2.fastq.gz
+Approx 15% complete for ERR2868174_2.fastq.gz
+Approx 20% complete for ERR2868174_2.fastq.gz
+Approx 25% complete for ERR2868174_2.fastq.gz
+Approx 30% complete for ERR2868174_2.fastq.gz
+Approx 35% complete for ERR2868174_2.fastq.gz
+Approx 40% complete for ERR2868174_2.fastq.gz
+Approx 45% complete for ERR2868174_2.fastq.gz
+Approx 50% complete for ERR2868174_2.fastq.gz
+Approx 55% complete for ERR2868174_2.fastq.gz
+Approx 60% complete for ERR2868174_2.fastq.gz
+Approx 65% complete for ERR2868174_2.fastq.gz
+Approx 70% complete for ERR2868174_2.fastq.gz
+Approx 75% complete for ERR2868174_2.fastq.gz
+Approx 80% complete for ERR2868174_2.fastq.gz
+Approx 85% complete for ERR2868174_2.fastq.gz
+Approx 90% complete for ERR2868174_2.fastq.gz
+Approx 95% complete for ERR2868174_2.fastq.gz
+Approx 100% complete for ERR2868174_2.fastq.gz
+Analysis complete for ERR2868174_2.fastq.gz
+
+Running STAR index...
+Nov 17 12:13:14 ..... started STAR run
+Nov 17 12:13:14 ... starting to generate Genome files
+Nov 17 12:13:14 ... starting to sort Suffix Array. This may take a long time...
+Nov 17 12:13:14 ... sorting Suffix Array chunks and saving them to disk...
+Nov 17 12:13:16 ... loading chunks from disk, packing SA...
+Nov 17 12:13:16 ... finished generating suffix array
+Nov 17 12:13:16 ... generating Suffix Array index
+Nov 17 12:13:16 ... completed Suffix Array index
+Nov 17 12:13:16 ... writing Genome to disk ...
+Nov 17 12:13:16 ... writing Suffix Array to disk ...
+Nov 17 12:13:16 ... writing SAindex to disk
+Nov 17 12:13:16 ..... finished successfully
+
+Running STAR alignment...
+Nov 17 12:13:16 ..... started STAR run
+Nov 17 12:13:16 ..... loading genome
+Nov 17 12:13:16 ..... started mapping
+Nov 17 12:14:11 ..... finished mapping
+Nov 17 12:14:11 ..... finished successfully
+
+###########################################
+# GENERATING REPORT...
+###########################################
+/home/ubuntu/miniconda3/envs/test_marta/lib/python3.7/site-packages/multiqc/utils/config.py:45: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  configs = yaml.load(f)
+/home/ubuntu/miniconda3/envs/test_marta/lib/python3.7/site-packages/multiqc/utils/config.py:51: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  sp = yaml.load(f)
+[INFO   ]         multiqc : This is MultiQC v1.7
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '/home/ubuntu/testMarta'
+[INFO   ]            star : Found 3 reports
+[INFO   ]        cutadapt : Found 3 reports
+[INFO   ]          fastqc : Found 6 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : out/multiqc/multiqc_report.html
+[INFO   ]         multiqc : Data        : out/multiqc/multiqc_data
+[INFO   ]         multiqc : MultiQC complete
