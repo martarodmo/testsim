@@ -1,5 +1,16 @@
-# Establecer directorio de trabajo: export WD=<ruta_del_directorio>
-# Comando de ejecución: bash scripts/run_pipeline.sh >>  log/run_pipeline.out 2>&1
+#########################################################################################################
+# Creación y activación de un nuevo ambiente
+# 	conda create -y --name ambiente_ejercicio_1
+# 	conda activate ambiente_ejercicio_1
+# Establecer directorio de trabajo:
+#	export WD=<ruta_del_directorio>
+#		por ejemplo: export WD=`pwd`
+# Comando de ejecución:
+#	bash scripts/run_pipeline.sh >  log/run_pipeline.out 2>&1
+# Exportación del ambiente
+#	mkdir -p envs
+#	conda env export > envs/rna-seq.yaml
+#########################################################################################################
 
 echo "###########################################"
 echo "# CLEARING Working Directory (`echo $WD`)..."
@@ -45,4 +56,3 @@ multiqc -o out/multiqc $WD
 echo "###########################################"
 echo "# END"
 echo "###########################################"
-
