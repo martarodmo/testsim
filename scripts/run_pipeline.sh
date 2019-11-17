@@ -1,12 +1,21 @@
 #########################################################################################################
-# Creación y activación de un nuevo ambiente
+# 1. Creación y activación de un nuevo ambiente
 # 	conda create -y --name ambiente_ejercicio_1
-# 	conda activate ambiente_ejercicio_1
-# Establecer directorio de trabajo:
-#	export WD=<ruta_del_directorio>
+#
+#	Es necesario descargar todos los paquetes que se utilizan en el ejercicio:
+#		conda install -y star
+#		conda install -y fastqc
+#		conda install -y multiqc
+#	Alternativamente, también se puede crear el ambiente a partir del ".yaml" exportado
+#		conda env create -f <nombre_del_archivo.yaml>
+#	Activar el ambiente	
+#		conda activate <nombre_ambiente>
+# 2. Establecer directorio de trabajo:
+#	export WD=<ruta_del_directorio_de_trabajo>
 #		por ejemplo: export WD=`pwd`
-# Comando de ejecución:
+# 3. Comando de ejecución:
 #	bash scripts/run_pipeline.sh >  log/run_pipeline.out 2>&1
+#
 # Exportación del ambiente
 #	mkdir -p envs
 #	conda env export > envs/rna-seq.yaml
@@ -19,7 +28,6 @@ echo "###########################################"
 rm -r log/cutadapt 2>/dev/null
 rm -r res/genome 2>/dev/null
 rm -r out 2>/dev/null
-rm -r envs 2>/dev/null
 rm Log.out 2>/dev/null
 
 echo "###########################################"
